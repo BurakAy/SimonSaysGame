@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Simon Says</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Coda:800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Atomic+Age" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="game">
+
+        <div id="greenpad"></div>
+        <div id="redpad"></div>
+        <div id="yellowpad"></div>
+        <div id="bluepad"></div>
+
+        <div id="gamecenter">
+            <p id="speaker">
+                ..........<br>
+                ............<br>
+                ...............<br>
+                .................<br>
+                ...................<br>
+                ....................<br>
+                ......................<br>
+                .......................<br>
+                ........................<br>
+                .........................<br>
+                ..........................<br>
+                ...........................<br>
+                ...........................<br>
+                ............................<br>
+                .............................<br>
+                .............................<br>
+                ..............................<br>
+                .............................<br>
+                ..............................<br>
+                ...............................<br>
+                ..............................<br>
+                ...............................<br>
+                ..............................<br>
+                ...............................<br>
+                ..............................<br>
+                .............................
+            </p>
+
+            <div id="controls">
+
+                <h1>s<span>i</span>mon</h1>
+
+                <div id="counter">
+                    <p id="score">--</p>
+                </div>
+
+                <div id="startstrict">
+                    <div id="startbutton">
+                        <button id="start"></button>
+                        <label id="starttext">start</label>
+                    </div>
+                    <div id="strictbutton">
+                        <button id="strict"><p id="stricttoggle"></p></button>
+                        <label id="stricttext">strict</label>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p><i class="fa fa-gg-circle" aria-hidden="true"></i>&nbsp;<a href="http://www.burakaydemir.com" target="_blank">burak aydemir</a></p>
+    </footer>
+    
+    <script type="text/javascript" src="functionality.js"></script>
+</body>
+
+</html>
